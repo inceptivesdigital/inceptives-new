@@ -61,7 +61,7 @@ const HeroSection = () => {
         setSubmitStatus('error');
       }
     } catch (error) {
-      console.log('Error submitting form:', error);
+      console.error(error);
       setSubmitStatus('error');
     } finally {
       setIsSubmitting(false);
