@@ -1,7 +1,6 @@
 "use client";
 import Image from "next/image";
 
-import { CalendarClock } from "lucide-react";
 import { PopupModal } from "react-calendly";
 import { useState, useEffect } from "react";
 

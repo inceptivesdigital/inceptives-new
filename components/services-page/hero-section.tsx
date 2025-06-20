@@ -4,7 +4,6 @@ import useEmblaCarousel from 'embla-carousel-react';
 import Image from "next/image";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import AnimatedButton from "../shared/animated-button";
-import CustomButton from "../shared/custom-button";
 import ProjectCards from "./project-cards";
 
 const slides = [
